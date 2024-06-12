@@ -10,7 +10,7 @@ import { useRef } from 'react'
  useEffect(()=>{
 data.current.focus();
  },[])
-  return (st
+  return (
     <div>
       <form onSubmit={submitHandler}>
       <center>
